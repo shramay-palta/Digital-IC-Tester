@@ -1,0 +1,3 @@
+1) The difference between the three proteus project files is only the ICs used to test the simulation (i.e., the 7408, 7432 and 7486). The remaining design and code is identical.
+
+2) For the simulation to run, the LCD needs to be provided a pulse. So we have to stop the simulation after starting it, and then change the position of the switch. Resuming the simulation would enable the LCD, and the tester would work.
